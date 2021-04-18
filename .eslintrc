@@ -1,5 +1,15 @@
 {
   "extends": "airbnb",
   "env": {"browser": true},
-  "parser": "babel-eslint"
+  "parser": "@babel/eslint-parser",
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack.common.js"
+      }
+    }
+  }
 }
