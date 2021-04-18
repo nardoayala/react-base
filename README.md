@@ -65,22 +65,28 @@ cd dist && http-server
 ### Babel
 
 - [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
+-[`@babel/eslint-parser`](https://www.npmjs.com/package/@babel/eslint-parser) - Allows you to lint ALL valid Babel code with the fantastic ESLint.
 - [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class (an example Babel config)
 - [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
 - [`@babel/preset-react`](https://babeljs.io/docs/en/babel-preset-react) - React defaults for Babel
 
 ### Eslint
 
-- [`eslint`](https://github.com/eslint/eslint) - Reports patterns found in ECMAScript/JavaScript code.
+- [`eslint`](https://github.com/eslint/eslint) - Reports patterns found in ECMAScript/JavaScript code
 - [`eslint-config-airbnb`](https://github.com/airbnb/javascript) - Airbnb JavaScript Style Guide
+- [`eslint-import-resolver-webpack`](https://www.npmjs.com/package/eslint-import-resolver-webpack) - Webpack-literate module resolution plugin for eslint-plugin-import
+- [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import) - Support linting of ES2015+ (ES6+) import/export syntax
+- [`eslint-plugin-jsx-a11y`](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) - Static AST checker for accessibility rules on JSX elements
+- [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks) - Enforces the Rules of Hooks.
 
 ### Loaders
 
 - [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
 - [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  - [`node-sass`](https://github.com/sass/node-sass) - Node Sass
+- [`node-sass`](https://github.com/sass/node-sass) - Node Sass
 - [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
-  - [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
+- [`postcss-preset-env`](https://www.npmjs.com/package/postcss-preset-env) - Sensible defaults for PostCSS
 - [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
 - [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
 
